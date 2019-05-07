@@ -1,0 +1,39 @@
+body{
+margin: 0 auto;
+}
+.form-group{
+  margin-bottom: 1rem;
+}
+.card-body{
+  background-color: #e5e5e5;
+}
+.control-label{
+  color: #777;
+  font-weight: 700;
+  padding-top: 8px;
+  text-align: right;
+}
+.red{
+  color: #ff0b55;
+}
+.indent-right{
+  margin-right: 10px;
+}
+.no-margin{
+  margin: 0 0;
+  padding: 0 0;
+}
+.button{
+  margin: 0 auto;
+  text-align: center;
+}
+.dropdown{
+  margin: 0 10px 0 0;
+  padding: 0 0;
+}
+
+@media (max-width: 768px){
+  .control-label{
+    text-align: left;
+  }
+}
